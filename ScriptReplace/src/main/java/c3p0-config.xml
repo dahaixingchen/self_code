@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <!--
+       <property name="jdbcUrl">jdbc:mysql://172.29.61.107:3306</property>
+       <property name="user">bdpms_query</property>
+       <property name="password">Bq_321</property>
+         -->
+        <property name="jdbcUrl">jdbc:mysql://192.168.40.1:3306</property>
+        <property name="user">root</property>
+        <property name="password">root</property>
+
+    </default-config>
+
+</c3p0-config>

@@ -7,8 +7,10 @@ package com.feifei.reference;
  * @Description: TODO
  **/
 public class M {
+    int i;
     @Override
     protected void finalize(){
+
         System.out.println("垃圾回收器已经回收，finalize");
     }
 }

@@ -1,5 +1,7 @@
 package com.feifei.reference;
 
+import org.openjdk.jol.info.ClassLayout;
+
 import java.io.IOException;
 
 /**
@@ -12,7 +14,7 @@ public class NormalReference {
     public static void main(String[] args) throws IOException {
         //
         M m = new M();
-
+//        System.out.println(ClassLayout.parseInstance(m).toPrintable());
         m = null;
 
         System.gc();
